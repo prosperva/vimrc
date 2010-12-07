@@ -1,0 +1,13 @@
+map <C-right> <ESC>:bn<CR>
+map <C-left> <ESC>:bp<CR>
+"map <C-T> :TaskList<CR>
+
+nmap wm :WMToggle<cr>
+nmap <C-n> :tabnew<cr>
+nnoremap <silent> <F8> :TlistToggle<cr>
+map <F10> :NERDTreeToggle<CR>
+
+
+"nmap ff :FuzzyFinderFile!<cr>
+nmap fd :FuzzyFinderDir!<cr>
+nnoremap ff :FuzzyFinderFile <C-r>=expand('%:~:.')[:-1-len(expand('%:~:.:t'))]<CR><CR> 
