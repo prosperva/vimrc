@@ -5,3 +5,6 @@ tmp/
 profile/
 VimballRecord
 password*
+.netrwhist
+.VimballRecord
+.vim_blog

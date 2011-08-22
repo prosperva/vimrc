@@ -85,3 +85,10 @@ set si
 "mapping config
 source ~/.vim/.vimrc_maps
 source ~/.vim/profile/.vim_twit
+source ~/.vim/.vim_blog
+
+"bundles
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'git://github.com/vim-scripts/Headlights.git' 
+Bundle 'git://github.com/vim-scripts/vst.git'
